@@ -17,9 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://192.168.3.241/hgrid247-DE/index.php/Login')
 
-WebUI.setText(findTestObject('objectLoginProcc/inpEmail'), 'tri.edy@gmail.com')
+WebUI.setText(findTestObject('objectLoginProcc/inpEmail'), '$mail')
 
-WebUI.setText(findTestObject('objectLoginProcc/inpPass'), 'tri.edy')
+WebUI.setText(findTestObject('objectLoginProcc/inpPass'), '$pass')
 
 WebUI.click(findTestObject('objectLoginProcc/chkBox_Agreement'))
 
